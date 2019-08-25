@@ -1,0 +1,18 @@
+{
+  "name": "@bvkimball/proxy-plugin-style-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js --minify -o dist",
+    "test": "tape test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "Brian Kimball <bvkimball@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@zeit/ncc": "^0.14.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  }
+}
